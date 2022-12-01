@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 :root{
@@ -10,3 +11,26 @@
     --light_grey: #E5E7EB;
     --light_blue: #3882F6;
 }
+
+header{
+    background-color: var(--dark_blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    height: 5vh;
+}
+header > #logo{
+    color: var(--white_text);
+    font-size: 24px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: var(--light_grey);
+}
+

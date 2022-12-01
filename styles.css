@@ -74,6 +74,11 @@ button{
 }
 
 /*-----information----*/
+
+#information{
+    min-height: 25vh;
+}
+
 #information > h2{
     text-align: center;
     color: var(--dark_blue);
@@ -101,6 +106,29 @@ button{
 .illustration-container > p {
     color: var(--dark_blue);
     text-align: center;
+}
+
+/*-----main----*/
+
+#quote{
+    background-color: var(--light_grey);
+    padding: 3rem 10rem;
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+blockquote > p{
+ color: var(--dark_blue);
+ font-size: 36px;
+ font-weight: 300;
+ font-style: italic;
+
+}
+
+figcaption{
+    text-align: right;
 }
 /*-----footer----*/
 

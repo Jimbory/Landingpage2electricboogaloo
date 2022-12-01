@@ -18,17 +18,18 @@ a{
     color: var(--light_grey);
 }
 
-p{
+p, h1, h2, h3, button{
     color: var(--white_text);
+    font-size: 18px;
 }
 /*-----header----*/
-header, footer{
+header, footer, main{
     background-color: var(--dark_blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 header > #logo{
@@ -43,8 +44,36 @@ nav > ul{
     color: var(--light_grey);
 }
 
+/*-----main----*/
 
+main{
+    min-height: 25vh;
+}
+
+main > .content{
+    width: 50%;
+    border: #E5E7EB solid 1px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+button{
+    background-color: var(--light_blue);
+    border-radius: 10px;
+    border: none;
+    padding: 0.4rem 2rem;
+    margin-top: 1rem;
+}
+
+.content > img{
+    max-width: 100%;
+    min-width: 450px;
+    height: auto;
+}
 /*-----footer----*/
+
 footer{
     justify-content: center;
 }

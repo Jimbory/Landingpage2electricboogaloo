@@ -1,3 +1,4 @@
+/*----basic----*/
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,16 @@
     --light_blue: #3882F6;
 }
 
-header{
+a{
+    text-decoration: none;
+    color: var(--light_grey);
+}
+
+p{
+    color: var(--white_text);
+}
+/*-----header----*/
+header, footer{
     background-color: var(--dark_blue);
     display: flex;
     justify-content: space-between;
@@ -20,17 +30,21 @@ header{
     padding: 0 10rem;
     height: 5vh;
 }
+
 header > #logo{
     color: var(--white_text);
     font-size: 24px;
 }
+
 nav > ul{
     display: flex;
     list-style: none;
     gap: 2rem;
-}
-a{
-    text-decoration: none;
     color: var(--light_grey);
 }
 
+
+/*-----footer----*/
+footer{
+    justify-content: center;
+}
